@@ -1,5 +1,5 @@
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/andrew74444/BizLigo.git
+git remote add origin https://github.com/andrew74444/demosession2.git
 git push -u origin master
