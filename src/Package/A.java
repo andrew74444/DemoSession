@@ -3,8 +3,8 @@ package Package;
 public class A {
 
 	
-	int i = 100;
-	int j = 200;
+	static int i = 100;
+	static int j = 200;
 	
 	
 	public static void main(String[] args) {
@@ -102,7 +102,7 @@ public class A {
 	}
 	
 	
-	public void addnumbers() {
+	public static void addnumbers() {
 		int z = i+j;
 		System.out.println(z);
 		
