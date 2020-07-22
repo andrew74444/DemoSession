@@ -2,10 +2,10 @@ package abcd;
 
 public class B extends A {
 
-public static void go1() {
+private static void go(int i) {
 		
 		System.out.println("im from class B");
-		go();
+		
 		
 	}
 	
