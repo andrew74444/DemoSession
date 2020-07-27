@@ -6,7 +6,7 @@ public class test extends B {
 
 		facebook fb = new facebook();
 
-		fb.login("test@gmail.com", 970);
+		fb.login("test@gmail.com", "gash");
 		
 		go();
 		
