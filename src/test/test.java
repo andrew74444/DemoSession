@@ -1,32 +1,24 @@
 package test;
 
-public class test {
+public class Test {
+	
+	public Test() {
 
-	public static void main(String[] args) {
-		
-		
-		Animal a = new Animal();
-		a.eat();
-		a.roam();
-		
-		
-		
-		Cat c = new Cat();
-		c.eat();
-		c.roam();
-		int x = c.sound(24, 457,576);
-		c.sound(24, 457);
-		
-		
-		
-		Dog d = new Dog();
-		d.eat();
-		d.roam();
-		d.sound();
-		
-		
-		
-		
+	}
+
+	public Test(int a) {
+
+	}
+
+	public int add(int x, int y) {
+		return 10;
+	}
+
+	public double sub() {
+		return 10.25;
+	}
+
+	public void show() {
 	}
 
 }
